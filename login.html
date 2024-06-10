@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>pacelogin</title>
+</head>
+<body>
+    <style>
+        body{
+            .container {
+                margin: 0 auto;
+                background-image:url(c.jpg);
+                background-size: cover;
+                box-sizing: border-box;
+                padding: 20px;
+                background-color: chocolate;
+                text-align: center;
+                margin-top: 200px;
+             }
+            
+               /* Smartphones (portait and landscape )----------  */
+             
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+          
+        }
+body {
+   background-color: brown;             
+}
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color: rgb(48, 177, 149);
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color:rgba(8, 10, 151, 0.301);
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+     background-color: rgb(101, 51, 208);
+}
+
+    
+}
+h1{
+    color:brown
+}
+           
+        
+        /CSS for styling the navigation menu/
+        nav{
+            background-color:aquamarine;
+            color:burlywood;
+            padding:10px;
+            
+                
+            
+        }
+        nav ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+        }
+        nav ul li{
+            display:inline;
+            margin-right:20px;
+        }
+        nav ui li a{
+            color:rgba(238, 255, 0, 0.719);
+            text-decoration:none;
+        }
+        nav ul li a:hover{
+            text-decoration:underline;
+        }
+        
+        h3{
+            color:red
+        }
+    
+    </style>
+<form action="success.html">
+    <body text="brown"></body>
+    <body>
+        <div class="container">
+            <h3>Pace Login Page:</h3>
+User Name:<input type="text" name="uname"><br>
+password:<input type="password" name="pass"><br>
+         <input type="submit">
+         </div>
+</form>
+</body>
+</html>

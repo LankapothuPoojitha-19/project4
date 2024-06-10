@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>contactus</title>
+    </head>
+    <body bgcolor="pink"></body>
+    <h1>contact us</h1>
+    <form action="contactus.html">
+        <body text ="red"></body>
+        <style>
+        body{
+        .container {
+                margin: 0 auto;
+                background:url(6.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-sizing: border-box;
+             }
+            
+               /* Smartphones (portait and landscape )----------  */
+             
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+          
+        }
+
+body {
+     background-color: rgba(20, 146, 146, 0.671);
+}
+
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color: rgba(236, 184, 14, 0.233);
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color:plum;
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+     background-color: rgb(101, 51, 208);
+}
+}
+        
+          
+        
+        
+        </style>
+        <body>
+            <div class="container">
+        </body>
+        full name:
+        <input type="name" name="sname"><br>
+        <body text="orange"></body>
+       
+        <br>
+        phone number:
+        <input type="num" name="rnum"><br>
+        <br>
+        email:
+<input list="email" name="mymails">
+            <datalist id="email">
+            <option value="@gmail.com"></option>
+            <option value="@yahoo.com"></option>
+            <option value="@hotmail.com"></option>
+            </datalist><br><br>
+          <h3> message :</h3> 
+          <textarea name="text" cols="3" rows="4" <input type="message here...."></textarea> <br><br>
+          
+         <input type="submit">
+        <br>
+        </div>
+    </form>
+</html>

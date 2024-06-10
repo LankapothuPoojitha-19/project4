@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Register form</title>
+</head>
+
+<style>
+        .container {
+                margin: 0 auto;
+                background:url(4.JPG);
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-sizing: border-box;
+             }
+            
+               /* Smartphones (portait and landscape )----------  */
+             
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+          
+          /*  Smart phone      */
+                  
+          @media screen and (min-width:320px )  {
+
+body {
+     background-color: aqua;
+}
+}
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color: rgb(177, 48, 48);
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color: papayawhip;
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+     background-color: rgb(101, 51, 208);
+}
+}
+          
+        
+</style>
+
+
+<form action="login.html">
+        <body>
+                <div class="container">
+
+<h3>register form:</h3>
+first name:  <input type="text" name="sname"> 
+
+last name:   <input type="text" name="sname"><br><br>
+ rollno:<br>
+<input type="text" rno="rnum"><br><br>
+date of joining:<br>
+<input type="date" name="joining"><br><br>
+ gender:<br>
+<input type="radio" name="gender" value="F">female<br>
+<input type="radio" name="gender" value="M">male<br>
+<input type="radio" name="gender" value="O">other<br>
+ Age:<br>
+<input type="text" age="anum"><br><br>
+date of birth:<br>
+<input type="date" name="birthday"><br><br>
+email:
+<input list="email" name="mymails">
+            <datalist id="email">
+            <option value="@gmail.com"></option>
+            <option value="@yahoo.com"></option>
+            <option value="@hotmail.com"></option>
+            </datalist><br><br>
+mobileno:
+            <input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number"<br>
+            <br>
+college name:<br>
+<input type="text" clg="clgname"><br><br>
+branch:<br><br>
+<input type="radio" branch="AIDS" value="A">AIDS<br>
+<input type="radio" branch="AIML" value="M">AIML<br>
+<input type="radio" branch="IT" value="I">IT<br>
+<input type="radio" branch="IOT" value="O">IOT<br>
+<input type="radio" branch="CSE" value="C">CSE<br>
+<input type="radio" branch="CSIT" value="S">CSIT<br>
+<input type="radio" branch="ECE" value="E">ECE<br><br>
+Academic year:<br><br>
+<input type="radio" Year="1" value="y1">1st year<br>
+<input type="radio" Year="2" value="y2">2nd year<br>
+<input type="radio" Year="3" value="y3">3rd year<br>
+<input type="radio" Year="4" value="y1">4th year<br><br>
+certificates done:<br><br>
+<input type="checkbox" certificate="spokentutorial">spokentutorial<br> 
+<input type="checkbox" certificate="codetantra">codetantra<br> 
+<input type="checkbox" certificate="infosys springboard">infosys springboard<br>
+<input type="checkbox" certificate="eduskills">edusskills<br> <br>
+
+        <input type="submit"><br>
+       
+        </div>
+       
+</form>
+</body>
+</html>

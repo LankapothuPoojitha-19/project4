@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <title>Navigation Menu Example</title>
+    <style>
+        
+        .container {
+                margin: 0 auto;
+                  
+                box-sizing: border-box;
+                background-color: cadetblue;
+             }
+            
+               /* Smartphones (portait and landscape )----------  */
+             
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+          
+
+body {
+    margin: 0 auto;
+                background-image: url(5.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 20px;
+                box-sizing: border-box;
+                background-color: cadetblue;
+                text-align: center;
+}
+
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color:deepskyblue;
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color:peru;
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+     background-color:fuchsia;
+}
+h1{
+    color:darkorange
+}
+}
+     
+        
+        /CSS for styling the navigation menu/
+        nav{
+            background-color:aquamarine;
+            color:rgb(199, 222, 135);
+            padding:10px;
+            
+                
+            
+        }
+        nav ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+        }
+        nav ul li{
+            display:inline;
+            margin-right:20px;
+        }
+        nav ui li a{
+            color:rgba(187, 255, 0, 0.418);
+            text-decoration:none;
+        }
+        nav ul li a:hover{
+            text-decoration:underline;
+        }
+        
+    </style>
+    </head>
+    <body>
+      <div class="container">
+        <nav>
+            <ul>
+                <h1>WELCOME TO PACE</h1>
+                <li><a href="registration2.html">home</a></li>
+                
+                <li><a href="aboutus2.html">About</a></li>
+            
+                <li><a href="contactus2.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+
+            </ul>
+        </nav>
+      </div>
+    </body>
+    </html>
